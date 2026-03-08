@@ -22,6 +22,12 @@ Todo el proyecto está montado sobre **Hardhat 3** + **viem** y tests en TypeScr
 | **Token Confidencial (CAP1)**| `0xA9b4F6A44d16796321f21522C1a70C7B4E97B94A` |
 | USDC (payout, testnet)      | `0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d` |
 
+#### **Verificación On-Chain (Arbitrum Sepolia)**
+Lógica verificada mediante llamadas directas a `onReport` a través de un handshake temporal con el forwarder.
+
+- **Prueba de Allowlist (Token Público):** `0x9f4dafd74e63d422f3a3ddabddc6186e8d77248b97c5a65472f4c583d7f0004b`
+- **Prueba de Mint Encrypted (Token Confidencial FHE):** `0x8f94450c27ee99e49f3a9d790b5986996998befea90270b86722c1bb2f47a2d5`
+
 #### Ethereum Sepolia
 | Contrato                     | Dirección |
 |-----------------------------|---------|
